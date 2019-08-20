@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:padding="7dp"
+    android:background="@drawable/new_login_gradients"
+    tools:context=".UpDeActivity">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/updeBloodET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Blood Group"
+        android:textColorHint="#fff"
+        android:gravity="center"
+        android:layout_marginTop="70dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db" />
+    <EditText
+        android:id="@+id/updeDateET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Needing Date"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:maxLines="1"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="4dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db" />
+    <EditText
+        android:id="@+id/updeLocationET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Needing Location"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:maxLines="1"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="4dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db" />
+    <EditText
+        android:id="@+id/updeNumberET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Contact Number"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:maxLines="1"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="4dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db" />
+    <EditText
+        android:id="@+id/updeDetailsET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Details Needing time,\n Which hospital etc "
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:maxLines="10"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="4dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/updateBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_login"
+            android:text="Update"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="#f16f7d"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:padding="16dp"/>
+        <Button
+            android:id="@+id/deleteBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_login"
+            android:text="Delete"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="#f16f7d"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

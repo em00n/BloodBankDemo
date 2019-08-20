@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/userr"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_donerlist"
+            android:icon="@drawable/list"
+            android:title="Show Donner List" />
+        <item
+            android:id="@+id/nav_searchdonner"
+            android:icon="@drawable/search"
+            android:title="Search Donner" />
+        <item
+            android:id="@+id/nav_bloodneed"
+            android:icon="@drawable/need"
+            android:title="Blood Needed" />
+        <item
+            android:id="@+id/nav_rules"
+            android:icon="@drawable/rules"
+            android:title="Donation Rules" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_developer"
+                android:icon="@drawable/userr"
+                android:title="Developer" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feed back" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_lock_black_24dp"
+                android:title="Log Out" />
+        </menu>
+    </item>
+
+</menu>

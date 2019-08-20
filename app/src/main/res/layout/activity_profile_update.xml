@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:padding="7dp"
+    android:background="@drawable/new_login_gradients"
+    tools:context=".ProfileUpdateActivity">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/upproNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:background="@android:color/transparent"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Name"
+        android:textColorHint="#fff"
+        android:gravity="center"
+        android:layout_marginTop="70dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db" />
+    <EditText
+        android:id="@+id/upproNumberET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Number"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:maxLines="1"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="4dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db" />
+    <EditText
+        android:id="@+id/upproAddressET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Address"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:maxLines="1"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="4dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db" />
+    <EditText
+        android:id="@+id/upproLastdonateET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:drawablePadding="12dp"
+        android:padding="8dp"
+        android:hint="Last donate"
+        android:gravity="center"
+        android:textColorHint="#fff"
+        android:maxLines="1"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="4dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/updateProBTN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_login"
+            android:text="Update"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textColor="#f16f7d"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:padding="16dp"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
